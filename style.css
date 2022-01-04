@@ -1,0 +1,16 @@
+
+.blink_me {
+  animation: blinker 3s reverse infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+
+.blink_me2 {
+  animation: blinker 3s ease-in-out infinite;
+}
+
+@keyframes blinker {  
+  20% { opacity: 0; }
